@@ -75,13 +75,6 @@ footer{
     background-color: #6b6b47;
 }
 
-.profile-pic{
-    max-width: 500px;
-    width: 100%;
-    margin: auto;
-    border-radius: 20px;
-}
-
 @media screen and (max-width: 800px){
     .profile-pic{
         max-width: 300px;
@@ -115,6 +108,9 @@ footer{
     #calculator{
         width: 100%;
         margin: auto;
+    }
+    .content{
+        flex-direction: column;
     }
 }
 
@@ -166,4 +162,19 @@ body{
     padding: 10px;
     border-radius: 5px;
     font-size: 1.8rem;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.about-text{
+    text-align: left;
+}
+.profile-pic{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
 }
