@@ -12,6 +12,7 @@
     width: 100%;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
 }
 
 nav{
@@ -20,21 +21,40 @@ nav{
 }
 
 nav ul{
-    padding-left: 0;
     list-style: none;
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 nav li{
+    margin-bottom: 12px;
+}
 
+nav a{
+    font-size: 1.2rem;
+}
+
+h1{
+    font-size: 2.5rem;
+}
+h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+h3{
+    font-size: 1.5rem;
+    margin-top:25px;
+    margin-bottom:10px;
 }
 
 main{
     height: 100vh;
     width: 70%;
     text-align: center;
+    max-width:700px;
+    padding: 40px;
 }
 
 header+footer{
@@ -57,4 +77,16 @@ img{
     .profile-pic{
         max-width: 300px;
     }
+}
+
+table{
+    margin: auto;
+    font-size: 1rem;
+}
+th,td{
+    padding:10px 16px;
+}
+
+body{
+    font-size: 18px;
 }
