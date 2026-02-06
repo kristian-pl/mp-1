@@ -41,3 +41,20 @@ header+footer{
     background-color: saddlebrown;
     color: beige;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.profile-pic{
+    max-width: 500px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 800px){
+    .profile-pic{
+        max-width: 300px;
+    }
+}
