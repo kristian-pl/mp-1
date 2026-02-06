@@ -4,8 +4,8 @@
 }
 #page-wrapper{
     width: 80vw;
-    background-color: aliceblue;
-    margin: 0 auto;
+    background-color: #e0e0d1;
+    margin: auto;
 }
 
 #container{
@@ -16,8 +16,8 @@
 }
 
 nav{
-    width: 30%;
-    background-color: sandybrown;
+    width: 27%;
+    background-color: #8a8a5c;
 }
 
 nav ul{
@@ -25,7 +25,7 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 }
 
 nav li{
@@ -34,6 +34,10 @@ nav li{
 
 nav a{
     font-size: 1.2rem;
+    padding: 5px;
+    background-color: #7a7a52;
+    border-radius: 5px;
+    font-weight: bold;
 }
 
 h1{
@@ -51,31 +55,66 @@ h3{
 
 main{
     height: 100vh;
-    width: 70%;
+    width: 75%;
     text-align: center;
     max-width:700px;
-    padding: 40px;
+    padding: 40px 50px 90px;
 }
 
-header+footer{
-    background-color: saddlebrown;
-    color: beige;
+header{
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #6b6b47;
 }
 
-img{
-    max-width: 100%;
-    height: auto;
+footer{
+    padding: 15px 10px;
+    text-align: center;
+    margin-top: 30px;
+    background-color: #6b6b47;
 }
 
 .profile-pic{
     max-width: 500px;
     width: 100%;
     margin: auto;
+    border-radius: 20px;
 }
 
 @media screen and (max-width: 800px){
     .profile-pic{
         max-width: 300px;
+    }
+    #container{
+        flex-direction: column;
+    }
+    nav{
+        width: 100%;
+    }
+    main{
+        width: 100%;
+        padding: 25px;
+    }
+    header{
+        text-align: center;
+    }
+    nav ul{
+        flex-direction: row;
+        align-items: center;
+        padding: 15px;
+    }
+    nav li{
+        margin: 0;
+    }
+    nav a{
+        padding: 8px;
+        font-size: 1rem;
+        text-align: center;
+    }
+    #calculator{
+        width: 100%;
+        margin: auto;
     }
 }
 
@@ -89,6 +128,10 @@ th,td{
 
 body{
     font-size: 18px;
+    font-family: Lato, sans-serif;
+    line-height: 1.4;
+    background-color: #999966;
+    color: black;
 }
 
 #calculator{
