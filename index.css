@@ -25,32 +25,32 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 50px;
+    padding: 20%;
 }
 
 nav li{
-    margin-bottom: 12px;
+    margin-bottom: 10%;
 }
 
 nav a{
-    font-size: 1.2rem;
-    padding: 5px;
+    font-size: calc(14px + 0.6vw);
+    padding: 5%;
     background-color: #7a7a52;
-    border-radius: 5px;
+    border-radius: 10px;
     font-weight: bold;
 }
 
 h1{
-    font-size: 2.5rem;
+    font-size: calc(24px + 1.6vw);
 }
 h2{
-    font-size: 2rem;
-    margin-bottom: 20px;
+    font-size: calc(20px + 1.2vw);
+    margin-bottom: 5%;
 }
 h3{
-    font-size: 1.5rem;
-    margin-top:25px;
-    margin-bottom:10px;
+    font-size: calc(16px + 0.9vw);
+    margin-top:0;
+    margin-bottom:0;
 }
 
 main{
@@ -58,26 +58,32 @@ main{
     width: 75%;
     text-align: center;
     max-width:1000px;
-    padding: 40px 50px 90px;
+    padding: 2%;
 }
 
 header{
-    padding: 15px 10px;
+    padding: 1%;
     text-align: center;
-    margin-top: 30px;
     background-color: #6b6b47;
 }
 
 footer{
-    padding: 15px 10px;
+    padding: 1%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 1%;
     background-color: #6b6b47;
 }
 
-@media screen and (max-width: 1000px){
+.profile-pic{
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 1050px){
     .profile-pic{
-        max-width: 300px;
+        max-width: 60%;
     }
     #container{
         flex-direction: column;
@@ -87,22 +93,23 @@ footer{
     }
     main{
         width: 100%;
-        padding: 25px;
+        padding: 10%;
     }
     header{
         text-align: center;
     }
     nav ul{
+        display: flex;
         flex-direction: row;
-        align-items: center;
-        padding: 15px;
+        justify-content: space-evenly;
+        padding: 2%;
     }
     nav li{
         margin: 0;
     }
     nav a{
-        padding: 8px;
-        font-size: 1rem;
+        padding: 5%;
+        font-size: calc(14px + 0.5vw);
         text-align: center;
     }
     #calculator{
@@ -116,14 +123,14 @@ footer{
 
 table{
     margin: auto;
-    font-size: 1rem;
+    font-size: calc(14px + 0.5vw);
 }
 th,td{
-    padding:10px 16px;
+    padding:1% 0 6%;
 }
 
 body{
-    font-size: 18px;
+    font-size: calc(14px + 0.6vw);
     font-family: Lato, sans-serif;
     line-height: 1.4;
     background-color: #999966;
@@ -131,53 +138,46 @@ body{
 }
 
 #calculator{
-    max-width: 250px;
+    max-width: 40%;
     margin: auto;
-    padding: 20px;
+    padding-top: 5%;
     background-color: #cc9966;
     border-radius: 10px;
     text-align: center;
 }
 #calculator label{
     font-weight: bold;
-    margin-bottom: 5px;
+    font-size: calc(13px + 0.5vw);
 }
 #calculator input{
-    padding: 5px;
-    margin-bottom: 10px;
+    padding: 3%;
     border: 2px solid saddlebrown;
     border-radius: 20px;
-    font-size: 1rem;
+    font-size: calc(12px + 0.4vw);
 }
 #calculator button{
-    width: 70px;
+    width: 30%;
     margin: auto;
-    padding: 5px;
+    padding: 4%;
     border: 2px solid #ffcc99;
     border-radius: 20px;
-    font-size: 1.2rem;
+    font-size: calc(10px + 0.5vw);
 }
 #output{
     margin: auto;
-    padding: 10px;
+    padding: 5%;
     border-radius: 5px;
-    font-size: 1.8rem;
+    font-size: calc(18px + 1vw);
 }
 
 .content{
     display: flex;
     align-items: center;
-    margin-bottom: 40px;
 }
 .about-text{
     flex: 1;
-    max-width: 500px;
-    padding-left: 30px;
+    max-width: 80%;
+    padding-left: 5%;
     text-align: left;
 }
-.profile-pic{
-    max-width: 375px;
-    width: 100%;
-    margin: auto;
-    border-radius: 20px;
-}
+
