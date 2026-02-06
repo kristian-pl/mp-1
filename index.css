@@ -90,3 +90,37 @@ th,td{
 body{
     font-size: 18px;
 }
+
+#calculator{
+    max-width: 250px;
+    margin: auto;
+    padding: 20px;
+    background-color: #cc9966;
+    border-radius: 10px;
+    text-align: center;
+}
+#calculator label{
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#calculator input{
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid saddlebrown;
+    border-radius: 20px;
+    font-size: 1rem;
+}
+#calculator button{
+    width: 70px;
+    margin: auto;
+    padding: 5px;
+    border: 2px solid #ffcc99;
+    border-radius: 20px;
+    font-size: 1.2rem;
+}
+#output{
+    margin: auto;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}

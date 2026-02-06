@@ -36,13 +36,31 @@
                         <br>
                         <br>
                         <h3>JavaScript Calculator</h3>
-
-
+                        <div id="calculator">
+                            <label for="first">First number:</label>
+                            <input type="text" id="first">
+                            <br>
+                            <br>
+                            <label for="second">Second number:</label>
+                            <input type="text" id="second">
+                            <br>
+                            <br>
+                            <button onclick="doAdd()">+</button>
+                            <button onclick="doSub()">-</button>
+                            <button onclick="doMul()">*</button>
+                            <button onclick="doDiv()">/</button>
+                            <button onclick="doPow()">**</button>
+                            <button onclick="doClear()">Clear</button>
+                            <br>
+                            <br>
+                            <h3 id="output"></h3>
+                        </div>
                     </main>
                 </div>
             <footer>
                 <p>All rights reserved by Kristian Plonski &copy; <a href="credits.html">Credits</a></p>
             </footer>
             </div>
+        <script src="projects.js"></script>
         </body>
     </html>
